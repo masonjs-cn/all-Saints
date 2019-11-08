@@ -1,0 +1,126 @@
+ body {
+     font-size: 20px;
+     text-align: center;
+     margin: 0;
+     background: #473881;
+ }
+
+ .bg-top {
+     font-size: 20px;
+     text-align: center;
+     margin: 0;
+     background: #473881 url("../images/bg-top.png") no-repeat;
+     background-size: 100%;
+     position: absolute;
+     top: 0px;
+     width: 100%;
+     height: 20rem;
+     z-index: -1;
+ }
+
+ .bg-bttom {
+     font-size: 20px;
+     text-align: center;
+     margin: 0;
+     background: #473881 url("../images/bg-bottom.png") no-repeat;
+     background-size: 100%;
+     position: absolute;
+     bottom: 0px;
+     width: 100%;
+     height: 22rem;
+     z-index: -1;
+ }
+
+ .happy-text {
+     margin: 2rem auto;
+     width: 85%;
+     z-index: 1;
+ }
+
+ label {
+     position: fixed;
+     bottom: 0;
+     left: 0;
+     font-size: 10px;
+ }
+
+ .header {
+     color: #108757;
+     height: 3rem;
+ }
+
+ #cvs {
+     display: none;
+     margin: 0 auto;
+ }
+
+ .canvas-container {
+     margin: 0 auto;
+ }
+
+ .hide,
+ #exportBtn {
+     display: none;
+ }
+
+ .body {
+     margin: 0rem auto 3rem;
+     /* width: 90%; */
+     border: solid 3px #8273c3;
+     line-height: 10rem;
+     position: relative;
+     color: #fff;
+     display: flex;
+     justify-content: center;
+     font-size: 1rem;
+ }
+
+ .upload-img {
+    width: 100%;
+    height: 100%;
+ }
+
+ #export {
+     display: none;
+     margin: 0 auto;
+     width: 250px;
+     /* height: 250px; */
+ }
+
+ .footer {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ button {
+     font-size: 18px;
+     color: #fff;
+     padding: 0 30px;
+     height: 2.3rem;
+     background: #fb7f0e;
+     border: 0;
+     border-radius: 20px;
+     box-shadow: 2px 1px 1px #c76307;
+ }
+
+ #tip {
+     color: #fff;
+ }
+
+ .pay-text {
+     position: absolute;
+     bottom: 0;
+     right: 5.5rem;
+     color: #757575;
+     z-index: 1;
+     font-size: 1.3rem;
+ }
+
+ .qr-code {
+     position: absolute;
+     bottom: 0;
+     width: 5rem;
+     height: 5rem;
+     z-index: 1;
+     right: 0;
+ }

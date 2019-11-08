@@ -1,0 +1,71 @@
+<!DOCTYPE  html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width,maximum-scale=1.0,minimum-scale=1.0'>
+  <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+  <title>请给我一个南瓜帽</title>
+
+  <script type="text/javascript">
+    document.write('<link href="./css/style.css?v=' + Math.random() + '" rel="stylesheet" type="text/css"/>')
+  </script>
+ 
+</head>
+<body>
+  <div class="bg-top"></div>
+
+  <!-- <div class='header'> -->
+    <!-- <img class="happy-text"  src="./images/happy-text.png" alt="" srcset=""> -->
+    <img class="happy-text" src="./images/happy-text.png"  src="" alt="" srcset=""/>
+    <!-- <h2>给头像加上圣诞帽</h2> -->
+  <!-- </div> -->
+
+  <div class='body' id='uploadContainer'>
+    <img class="upload-img" id='uploadImg' src="./images/upload.png" src="" alt="" srcset="" />
+    <small id='uploadText'></small>
+    <input id='upload' type='file' onchange='viewer()' style='position: absolute; top: 0; left: 0; opacity: 0'>
+  </div>
+  <img id='export' alt='圣诞快乐' src='' />
+  <canvas id='cvs'></canvas>
+  <p id='tip' style='opacity: 0'>点击贴纸调整位置和大小</p>
+  <div class='footer'>
+    <button id='change' onClick='changeHat()' style='display: none;'>换 一 个</button>
+    <button id='exportBtn' onClick='exportFunc()'>生成头像</button>
+    <button id='reUpload' onClick='reUpload()' style='display: none;'>重新再来</button>
+  </div>
+  
+  <div style='display: none'>
+    <img id='img' src='' alt='' />
+    <img class='hide' id='hat0' src='./images/hat0.png' />
+    <img class='hide' id='hat1' src='./images/hat1.png' />
+    <img class='hide' id='hat2' src='./images/hat2.png' />
+    <img class='hide' id='hat3' src='./images/hat3.png' />
+    <img class='hide' id='hat4' src='./images/hat4.png' />
+    <img class='hide' id='hat5' src='./images/hat5.png' />
+    <img class='hide' id='hat6' src='./images/hat6.png' />
+    <img class='hide' id='hat7' src='./images/hat7.png' />
+  </div>
+
+  <div class="bg-bttom">
+    <span class="pay-text">关注嘿kids</span>
+    <img class='qr-code' src='./images/qr-code.png' />
+  </div>
+
+<script src="./js/fabric.min.js"></script>
+<script type="text/javascript">
+    document.write('<script type="application/javascript" src="./js/index.js?v='+ Math.random()+'"><\/script>');
+</script>
+<script>
+  var _mtac = {};
+  (function () {
+    var mta = document.createElement("script");
+    mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+    mta.setAttribute("name", "MTAH5");
+    mta.setAttribute("sid", "500699991");
+
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(mta, s);
+  })();
+</script>
+</body>
+</html>
